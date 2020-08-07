@@ -1,0 +1,165 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@800&family=Oswald:wght@700&display=swap');
+
+/* font-family: 'Oswald',
+sans-serif;
+font-family: 'Baloo Thambi 2',
+cursive; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, #11998e 0%, #38ef7d 100%);
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #2ecc71;
+    border-radius: 4px;
+}
+
+.register {
+    position: relative;
+}
+
+.register-form {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 50px auto;
+    background: #333;
+    padding: 30px;
+    border-radius: 9px;
+    box-shadow: 5px 10px 10px #222;
+}
+
+.camps {
+    margin: 5px;
+    padding: 10px;
+    border: 2px solid #4caf50;
+    background: #222;
+    border-radius: 9px;
+    outline: none;
+    font-weight: bold;
+    font-family: 'Baloo Thambi 2';
+    color: #4caf50;
+}
+
+.send {
+    margin: 5px;
+    padding: 10px;
+    background: #222;
+    border: 2px solid #4caf50;
+    border-radius: 9px;
+    font-weight: bold;
+    cursor: pointer;
+    color: #fff;
+    font-family: 'Baloo Thambi 2';
+}
+
+.send:hover {
+    background: #4caf50;
+    color: #222;
+}
+
+.cien {
+    width: 100px;
+    margin: 10px auto;
+}
+
+.tokens {
+    width: 100%;
+    display: flex;
+}
+
+.token {
+    width: 50%;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 9px;
+    border: 2px solid #4caf50;
+    background: #222;
+    font-weight: bold;
+    color: #fff;
+    cursor: pointer;
+    font-family: 'Baloo Thambi 2';
+}
+
+.token:hover {
+    background: #4caf50;
+    color: #222;
+}
+
+.mostrar-terms {
+    font-size: 25px;
+    margin: 0px auto;
+    color: #4caf50 !important;
+    cursor: pointer;
+}
+
+.terms {
+    margin: 5px;
+    padding: 10px;
+    display: none;
+}
+
+.terms-text {
+    font-family: 'Oswald', sans-serif;
+    font-size: 15px;
+    color: #4caf50;
+    text-shadow: 2px 2px #222;
+}
+
+.agg-user {
+    position: relative;
+}
+
+.new-user {
+    color: #4caf50;
+}
+
+.plus {
+    font-size: 20px;
+    position: absolute;
+    right: 10px;
+}
+
+#form-login {
+    display: none;
+}
+
+.text-one {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px auto;
+    color: #fff;
+}
+
+.reg {
+    font-size: 55px;
+    margin: 10px;
+}
+
+.ancla {
+    color: #333;
+}
+
+.new-user,
+.agg-user {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 800px){
+    .register-form{
+        width: 90% !important;
+        margin-bottom: 150px !important;
+    }
+}

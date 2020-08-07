@@ -1,0 +1,160 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@800&family=Oswald:wght@700&display=swap');
+
+/* font-family: 'Oswald',
+sans-serif;
+font-family: 'Baloo Thambi 2',
+cursive; */
+
+
+/* universal */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+}
+
+a {
+    font-family: 'Oswald', sans-serif;
+    color: none;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+body::-webkit-scrollbar {
+    width: 7px;
+    background: #333;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #2ecc71;
+    border-radius: 4px;
+}
+
+.menu {
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.end{
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    background: #222;
+}
+.e-1{
+    font-weight: bold;
+    font-family: 'Baloo Thambi 2',cursive;
+    font-size: 20px;
+}
+.logo {
+    margin: 10px;
+}
+
+.loginpro {
+    width: 40px;
+    border-radius: 99px;
+    border: 2px solid #009688;
+    margin: 10px;
+}
+
+.opcions {
+    display: flex;
+    align-items: center;
+}
+
+.btn-opcion {
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background: #222;
+    font-size: 10px;
+    color: #2ecc71;
+}
+
+.theme {
+    display: none;
+}
+
+.ocultar {
+    display: none;
+}
+
+.menuhidden {
+    background: #333;
+    width: 100%;
+    display: none;
+    justify-content: center;
+}
+
+.cc {
+    width: 100%;
+    height: 88vh;
+    background: #222;
+}
+
+.information {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    z-index: 1;
+}
+
+.card1 {
+    width: 50%;
+    margin: 80px auto;
+}
+
+.description {
+    width: 50%;
+    text-align: center;
+    font-family: 'Baloo Thambi 2', cursive;
+    z-index: 1;
+}
+
+.good {
+    position: absolute;
+    z-index: 0;
+    height: 88vh !important;
+}
+
+.title-logo {
+    width: 50px;
+}
+
+@media only screen and (max-width: 800px) {
+ .information{
+    position: relative;
+    top: 50px;
+    flex-direction: column-reverse !important;
+ }
+ .good{
+   display: none;
+ }   
+  .menu{
+
+  }
+  .logo{
+    width: 150px;
+  }
+  .description{
+    color: #fff !important;
+    width: 100%;
+  }
+  .cc{
+    height: 100vh !important;
+    background: #2ecc71;
+  }
+}
